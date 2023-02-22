@@ -1,0 +1,26 @@
+<html>
+<body>
+<form>
+<h1> Registration form </h1>
+<font color = "purple" size = "3" face ="arial">
+<p> user id<input type ="text" required size ="5" maxlength ="10"></p>
+<p>password<input type="password" name="t2" required size="7" minlength ="5" maxlenghth="12"></p>
+<p> name <input type ="text" name= "t3" size ="5" maxlength ="18"/></p>
+<p> address <input type ="text" name= "t3" size ="8" maxlength ="27"/></p>
+<p>country <select size ="1" name ="d2">
+<option>Select-one</option>
+<option>Nigeria</option>
+<option>France</option>
+<option>Germany</option> </select>
+<p> zip-code<input type ="number" name= "t4" size ="5" maxlength ="18"/></p>
+<p> E-mail<input type ="email" name= "email" size ="15" maxlength ="65"/></p>
+<p>Sex: <input type ="radio" name = "sex" checked = "checked"value ="male"/> male
+<input type ="radio"  name = "sex" value ="female"/>female
+<p>Language: <input type ="checkbox"  name = "Eng" value ="English"/> English
+<input type ="checkbox"  name = "engg" value ="Non-english"/>Non-english</p>
+<p> About <textarea name ="comments " rows="4" cols ="36">
+</textarea></p>
+<br> <input type="submit" value="Accept" name="B1"></br>
+</form>
+</body>
+</html>
